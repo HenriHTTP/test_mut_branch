@@ -4,5 +4,7 @@ function routes ( parameter){
     if(!parameter){ 
         return false 
     }
-    return route
+
+    const  routes = parameter.routes
+    return  routes
 } 

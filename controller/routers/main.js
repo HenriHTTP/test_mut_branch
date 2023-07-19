@@ -6,8 +6,6 @@ function routes ( parameter){
     }
 
     const  routes = parameter.routes
-    if(!routes){
-        return false
-    }
+
     return  routes
 } 
